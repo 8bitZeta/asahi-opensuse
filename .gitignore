@@ -2,3 +2,5 @@
 scripts/build
 *.DS_Store*
 specs/kernel.spec
+kiwi/outdir-Tumbleweed-KDE
+kiwi/installer_data.json

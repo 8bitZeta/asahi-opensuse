@@ -24,4 +24,9 @@
 	<repository type="rpm-md" alias="repo-non-oss" profiles="Leap">
 		<source path="http://download.opensuse.org/distribution/leap/15.3/repo/non-oss/"/>
 	</repository>
+
+    <!-- Asahi repo -->
+    <repository type="rpm-md" alias="asahi"  priority="1" repository_gpgcheck="false" package_gpgcheck="false">
+        <source path="https://download.opensuse.org/repositories/home:/mrkcee/openSUSE_Factory_ARM/"/>
+    </repository>
 </image>

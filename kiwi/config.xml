@@ -37,11 +37,6 @@
         </profile>
     </profiles>
     <include from="this://./repos.xml"/>
-    <!-- Asahi repo -->
-    <repository type="rpm-md" alias="asahi"  priority="1" repository_gpgcheck="false" package_gpgcheck="false">
-        <source path="dir:///home/mrkcee/development/asahi-opensuse/repo/">
-        </source>
-    </repository>
     <packages type="bootstrap" patternType="plusRecommended">
         <package name="which"/>
         <package name="gawk"/>

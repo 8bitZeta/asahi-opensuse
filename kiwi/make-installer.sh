@@ -56,7 +56,7 @@ pushd "${workdir}/package" > /dev/null
 popd > /dev/null
 
 	
-cat > installer_data-$package.json <<EOF
+cat > installer_data.json <<EOF
 {
     "os_list": [
         {
@@ -64,7 +64,7 @@ cat > installer_data-$package.json <<EOF
             "default_os_name": "openSUSE Tumbleweed",
             "boot_object": "m1n1.bin",
             "next_object": "m1n1/boot.bin",
-            "package": "http://localhost:8000/Public/${package}.zip",
+            "package": "${package}.zip",
             "supported_fw": ["12.3", "12.3.1", "13.5"],
             "partitions": [
                 {
